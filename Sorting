@@ -1,19 +1,16 @@
 <?php  
-echo "Enter the value of x";  
-$x = readline();  
-echo "Enter the value of y";  
-$y = readline();  
-echo "before swapping numbers: ";  
-echo $x;  
-echo "    ";  
-echo $y;  
-echo "\n";  
-/*swapping*/  
-$temp = $x;  
-$x = $y;  
-$y = $temp;  
-echo "After swapping ";  
-echo $x;  
-echo "    ";  
-echo $y;  
+$a=4;  
+$b=9; 
+$c=7; 
+$d=5; 
+$e=8;
+$f=9;
+$g=3;
+//using arithmetic operation  
+$a=$a+$b;  
+$b=$a-$b;  
+$a=$a-$b;  
+echo "Value of a: $a</br>";  
+echo "Value of b: $b</br>";  
 ?>  
+
