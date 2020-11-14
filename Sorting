@@ -1,0 +1,19 @@
+<?php  
+echo "Enter the value of x";  
+$x = readline();  
+echo "Enter the value of y";  
+$y = readline();  
+echo "before swapping numbers: ";  
+echo $x;  
+echo "    ";  
+echo $y;  
+echo "\n";  
+/*swapping*/  
+$temp = $x;  
+$x = $y;  
+$y = $temp;  
+echo "After swapping ";  
+echo $x;  
+echo "    ";  
+echo $y;  
+?>  
